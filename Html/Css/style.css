@@ -1,0 +1,118 @@
+
+  
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    font-size: 24px;
+}
+.CV{
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    width: 250mm; /* A4 width */
+    height: 360mm; /* A4 height */
+    background-color: wheat;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+.left-side{
+    height: 100%;
+    width: 35%;
+    background-color: #ecf0f1;
+
+}
+.left-side img{
+    width: 150px;
+    height: 180px;
+
+}
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+.detail{
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.detail h1{
+    border-bottom: 1px solid blue;
+}
+.contact{
+    padding-top: 1rem;
+}
+.contact-container{
+    display: flex;
+    align-items: center;
+}
+.contact-container h2{
+    font-size: 18px;
+    font-weight: 150;
+    
+}
+.contact img{
+    height: 30px;
+    width: 30px;
+}
+.data-container{
+    display: flex;
+    align-items: center;
+}
+.data-container h2{
+    font-size: 20px;
+    font-weight: 200;
+
+}
+.Telegram-qr h1{
+    font-size: 25px;
+}
+.qr-image{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    /* padding: 20px; */
+
+}
+.qr-image img{
+    height: 120px;
+    width: 120px;
+}
+
+
+.right-side{
+    height: 100%;
+    width: 65%;
+    background-color: whitesmoke;
+    
+}
+.detail-right{
+    
+    margin: 50px 30px 0px 25px;
+
+}
+.right-side h1{
+    border-bottom: 1px solid blue;
+
+}
+ol{
+    padding: 0;
+    margin: 0 0 6px 0;
+    font-size: 18px;
+}
+ol span{
+    font-size: 22px;
+    margin: 0 0 5px 0;
+    font-weight: 600;
+}
+.information{
+    padding-top: 30px;
+}
